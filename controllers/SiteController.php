@@ -87,7 +87,7 @@ class SiteController extends Controller
     }
 
     public function actionFeedback(){
-        return 'Feedback page';
+        return $this->render('feedback');
     }
     /**
      * Logout action.
