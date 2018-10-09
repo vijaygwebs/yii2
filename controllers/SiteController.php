@@ -86,7 +86,7 @@ class SiteController extends Controller
         ]);
     }
 
-    public function actionfeedback(){
+    public function actionFeedback(){
         return 'Feedback page';
     }
     /**
