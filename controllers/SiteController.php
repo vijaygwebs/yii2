@@ -98,6 +98,10 @@ class SiteController extends Controller
         return $this->goHome();
     }
 
+    /* Displays service page */
+    public function actionServices(){
+        return $this->render('Services');
+    }
     /**
      * Displays contact page.
      *
