@@ -86,6 +86,9 @@ class SiteController extends Controller
         ]);
     }
 
+    public function actionfeedback(){
+        return 'Feedback page';
+    }
     /**
      * Logout action.
      *
